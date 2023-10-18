@@ -1,0 +1,66 @@
+@media (max-width: 700px) {
+
+    .banner{
+        height: 100vh;
+    }
+
+    .title img {
+        margin-top: 8rem;
+        width: 60%;
+    }
+    
+    .arrow img {
+      margin-left: 20rem;
+      margin-top: -4rem;
+      width: 20%;
+    }
+    
+    .banner-text h1 {
+        margin-top: 10rem;
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--bg-white);
+    }
+   
+    .about-content {
+        width: 90%;
+    }
+
+    .history-section {
+        height: 70vh;
+    }
+
+    .history-content img {
+        width: 8rem;
+        margin-top: 6rem;
+     }
+
+     .delicious-food {
+        height: 100vh;
+    }
+
+    .delicious-content {
+        width: 90%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .delicious-food-2 {
+        height: 100vh;
+    }
+    
+    .background-layout-2 img {
+        height: 50vh;
+    }
+
+    .delicious-content-2 {
+        width: 90%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+    
+
+
+}
