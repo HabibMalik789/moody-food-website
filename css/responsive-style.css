@@ -1,42 +1,74 @@
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     .banner{
         height: 100vh;
     }
 
     .title img {
-        margin-top: 8rem;
-        width: 60%;
+        margin-top: 4rem;
+        width: 30%;
     }
     
     .arrow img {
       margin-left: 20rem;
-      margin-top: -4rem;
-      width: 20%;
+      margin-top: -5rem;
+      width: 10%;
     }
     
     .banner-text h1 {
-        margin-top: 10rem;
-        font-size: 3rem;
+        margin-top: 7rem;
+        font-size: 2rem;
         font-weight: bold;
         color: var(--bg-white);
     }
    
     .about-content {
-        width: 90%;
+        width: 80%;
+        padding-top: 4rem;
     }
+    
+    .about-content h1, .delicious-content h1 {
+        font-size: 2rem;
+    }
+    
+    .about-content p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    
+    }
+
+    .about-img img {
+        width: 35%;
+        margin-right: 8rem;
+     }
+    
+     .about-btn a, .delicious-content a, .delicious-content-2 a{
+        font-size: 1.2rem;
+        padding: 1.2rem 2.7rem;
+     }
 
     .history-section {
         height: 70vh;
     }
+    
+    .history-content h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .history-content p,.delicious-content p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    
+    }
 
     .history-content img {
-        width: 8rem;
-        margin-top: 6rem;
+        width: 7%;
+        margin-top: 5rem;
      }
 
      .delicious-food {
-        height: 100vh;
+        height: 55vh;
     }
 
     .delicious-content {
@@ -46,12 +78,16 @@
         text-align: center;
     }
 
+    .background-layout img {
+        margin-top: 2rem;
+    }
+
     .delicious-food-2 {
-        height: 100vh;
+        height: 55vh;
     }
     
     .background-layout-2 img {
-        height: 50vh;
+        height: 55vh;
     }
 
     .delicious-content-2 {
@@ -61,6 +97,67 @@
         text-align: center;
     }
     
+    .delicious-content-2 h1 {
+        font-size: 2rem;
+    }
+    
+    .delicious-content-2 p {
+        font-size: 1.2rem;
+    }
 
+
+}
+
+
+@media (max-width: 464px) {
+
+    .banner{
+        height: 100vh;
+    }
+
+    .title img {
+        margin-top: 5rem;
+        width: 40%;
+    }
+    
+    .arrow img {
+      margin-left: 16rem;
+      margin-top: -3.5rem;
+      width: 15%;
+    }
+    
+
+    .about-img img {
+        width: 55%;
+        margin-right: 8rem;
+     }
+    
+    .history-section {
+        height: 60vh;
+    }
+    
+
+    .history-content img {
+        margin-top: 4rem;
+     }
+
+     .delicious-food {
+        height: 115vh;
+    }
+
+    .delicious-content {
+        width: 90%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .background-layout img {
+        margin-top: 2rem;
+    }
+
+    .delicious-food-2 {
+        height: 115vh;
+    }
 
 }
