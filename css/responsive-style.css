@@ -181,7 +181,7 @@
 } */
 
 
-/* @media (max-width: 464px) {
+@media (max-width: 464px) {
 
     .banner{
         height: 52vh;
@@ -236,4 +236,134 @@
         height: 62vh;
     }
 
-} */
+}
+
+
+@media (max-width: 390px) {
+
+    .banner{
+        height: 55vh;
+    }
+
+    .title img {
+        margin-top: 5rem;
+        width: 40%;
+    }
+    
+    .arrow img {
+      margin-left: 16rem;
+      margin-top: -3.5rem;
+      width: 15%;
+    }
+    
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-section {
+        height: 58vh;
+    }
+
+    .about-content h1, .delicious-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-img img {
+        width: 55%;
+        margin-right: 8rem;
+     }
+    
+    .history-section {
+        height: 39vh;
+    }
+    
+
+    .history-content img {
+        margin-top: 1rem;
+     }
+
+     .delicious-food {
+        height: 68vh;
+    }
+
+    .delicious-content {
+        width: 90%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .background-layout img {
+        margin-top: 2rem;
+    }
+
+    .delicious-food-2 {
+        height: 65vh;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    .banner{
+        height: 68vh;
+    }
+
+    .title img {
+        margin-top: 5rem;
+        width: 40%;
+    }
+    
+    .arrow img {
+      margin-left: 16rem;
+      margin-top: -3.5rem;
+      width: 15%;
+    }
+    
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-section {
+        height: 80vh;
+    }
+
+    .about-content h1, .delicious-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-img img {
+        width: 55%;
+        margin-right: 8rem;
+     }
+    
+    .history-section {
+        height: 45vh;
+    }
+    
+
+    .history-content img {
+        margin-top: 1rem;
+     }
+
+     .delicious-food {
+        height: 85vh;
+    }
+
+    .delicious-content {
+        width: 90%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .background-layout img {
+        margin-top: 2rem;
+    }
+
+    .delicious-food-2 {
+        height: 75vh;
+    }
+
+}
